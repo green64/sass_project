@@ -1,5 +1,5 @@
 # Sass is Where's It's At
-[Sass project](https://https://green64.github.io/sass_project/)
+[Sass project](https://green64.github.io/sass_project/)
 
 This project has really excited me about Sass and made me want to dig in deeper to learn about everything I can do with it. 
 
