@@ -11,11 +11,9 @@ Using variables for hex colors? Hello time savings!
 
 Even more awesome is Sass's built-in lighten feature that lets you control what shade of your variable you use. Perfect for rollovers and no doubt dozens of other uses.
 
-```  &:hover{
+```&:hover{
       background: lighten($deepBlue, 6){
-
-      }
-      ```
+      }```
 
 ## Make Sass do the math
 
@@ -26,8 +24,8 @@ Hands down this is probably the coolest Sass feature I've used so far:
     box-sizing: border-box;
     text-align: center;
     width: (100% / 3);
-  }
-  ```
+  }```
+
 See that last line? Sass is basically diving the available space among my li tags. This is what it looks like on the page:
 
 ![Evenly spaced lis](https://www.samanthamccallfp18.com/assets/images/evenly_spaced_lis.png "li elements")
@@ -46,8 +44,7 @@ Say your site has multiple banners. Just give them the same class (.banner-conte
     position: absolute;
     top: 50px;
     width: 100%;
-  }
-  ```
+  }```
 
 ## Modularize and import just like React
 
@@ -55,8 +52,7 @@ But Samantha, doesn't your Sass file get awfully messy with all those variables 
 
 ```@import "reset";
 @import "variables";
-@import "mixins";
-```
+@import "mixins";```
 
 Since these are imported into the primary Sass file, you have to remember to tell Prepros not to automatically process them when you make updates:
 ![Prepros screen](https://www.samanthamccallfp18.com/assets/images/prepros_imports.png "Prepros screen")
