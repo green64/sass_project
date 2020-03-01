@@ -20,4 +20,4 @@ provide examples
 
 I thought Sass was only for big projects. But now I know it's about convenience, reuse and making things like dividing space &mdash; evenly spacing nav items for example &mdash; easy-peasy.
 
-action! :neckbeard:
+:neckbeard:
