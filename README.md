@@ -59,6 +59,7 @@ But Samantha, doesn't your Sass file get awfully messy with all those variables 
 ```
 
 Since these are imported into the primary Sass file, you have to remember to uncheck Prepros' Process Automatically box so when you make updates they're all still funneling to the primary file:
+
 ![Prepros screen](https://www.samanthamccallfp18.com/assets/images/prepros_imports.png "Prepros screen")
 
 ## Conclusion
