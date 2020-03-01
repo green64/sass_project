@@ -1,5 +1,5 @@
 # Sass is Where It's At
-[Sass project](https://green64.github.io/sass_project/)
+[Live page](https://green64.github.io/sass_project/)
 
 This project has really excited me about Sass and made me want to dig in deeper to learn about everything I can do with it. I used Prepros for my preprocessing tool and it worked great. Easy to get up and running with, very straightforward to use &mdash; I'll definitely use it going forward. 
 
