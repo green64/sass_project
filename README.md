@@ -12,7 +12,7 @@ Using variables for hex colors? Hello time savings!
 Even more awesome is Sass's built-in lighten feature that lets you control what shade of your variable you use. Perfect for rollovers and no doubt dozens of other uses.
 
 ```&:hover{
-      background: lighten($deepBlue, 6){
+      background:lighten($deepBlue, 6)
       }```
 
 ## Make Sass do the math
