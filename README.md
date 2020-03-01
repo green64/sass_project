@@ -1,4 +1,4 @@
-# Sass is Where's It's At
+# Sass is Where It's At
 [Sass project](https://green64.github.io/sass_project/)
 
 This project has really excited me about Sass and made me want to dig in deeper to learn about everything I can do with it. I used Prepros for my preprocessing tool and it worked great. Easy to get up and running with, very straightforward to use &mdash; I'll definitely use it going forward. 
@@ -9,7 +9,7 @@ Using variables for hex colors? Hello time savings!
 
 ```$deepBlue: #f8f9fb;```
 
-Even more awesome is Sass's built-in lighten feature that lets you control what shade of your variable you use. Perfect for rollovers and no doubt dozens of other uses.
+Even more awesome than never having to remember your hex code on every instance is Sass's built-in lighten feature that lets you control what shade of your variable you use. Perfect for rollovers and no doubt dozens of other uses.
 
 ```&:hover{
       background:lighten($deepBlue, 6)
@@ -28,7 +28,7 @@ Hands down this is probably the coolest Sass feature I've used so far:
   }
 ```
 
-See that last line? Sass is basically diving the available space among my li tags. This is what it looks like on the page:
+See that last line? Sass is basically dividing the available space among my li tags. This is what it looks like on the page:
 
 ![Evenly spaced lis](https://www.samanthamccallfp18.com/assets/images/evenly_spaced_lis.png "li elements")
 
@@ -58,7 +58,7 @@ But Samantha, doesn't your Sass file get awfully messy with all those variables 
 @import "mixins";
 ```
 
-Since these are imported into the primary Sass file, you have to remember to tell Prepros not to automatically process them when you make updates:
+Since these are imported into the primary Sass file, you have to remember to uncheck Prepros' Process Automatically box so when you make updates they're all still funneling to the primary file:
 ![Prepros screen](https://www.samanthamccallfp18.com/assets/images/prepros_imports.png "Prepros screen")
 
 ## Conclusion
