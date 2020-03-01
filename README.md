@@ -7,8 +7,7 @@ This project has really excited me about Sass and made me want to dig in deeper 
 
 Using variables for hex colors? Hello time savings!
 
-```$deepBlue: #f8f9fb;
-```
+```$deepBlue: #f8f9fb;```
 
 Even more awesome is Sass's built-in lighten feature that lets you control what shade of your variable you use. Perfect for rollovers and no doubt dozens of other uses.
 
